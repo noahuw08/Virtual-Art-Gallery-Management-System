@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Virtual Art Gallery Management System</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Virtual Gallery Management System</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
 	<header>
-		<h1>Virtual Art Gallery</h1>
 		<nav>
 			<ul>
 				<li><a href="#">Home</a></li>
-				<li><a href="#">Gallery</a></li>
-				<li><a href="#" id="cart-button">Cart</a></li>
+				<li><a href="#">Artworks</a></li>
+				<li><a href="#">Artists</a></li>
+				<li><a href="#">Exhibitions</a></li>
+				<li><a href="#">Rooms</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
-		<div class="card-deck"></div>
+		<section id="home">
+			<h1>Welcome to the Virtual Gallery Management System</h1>
+			<p>This is a platform that allows you to browse and manage artworks, artists, exhibitions, and rooms in a virtual gallery.</p>
+			<button>Get started</button>
+		</section>
+
+		<section id="artworks">
+			<h2>Artworks</h2>
+			<p>View our collection of artworks and browse by category or artist.</p>
+			<!-- Artworks grid here -->
+		</section>
+
+		<section id="artists">
+			<h2>Artists</h2>
+			<p>Learn about the artists whose works are featured in the gallery.</p>
+			<!-- Artists grid here -->
+		</section>
+
+		<section id="exhibitions">
+			<h2>Exhibitions</h2>
+			<p>Discover current and upcoming exhibitions in the gallery.</p>
+			<!-- Exhibitions grid here -->
+		</section>
+
+		<section id="rooms">
+			<h2>Rooms</h2>
+			<p>Explore the gallery's virtual rooms and navigate through them.</p>
+			<!-- Rooms grid here -->
+		</section>
 	</main>
 
 	<footer>
-		<p>&copy; 2023 Virtual Art Gallery. All rights reserved.</p>
+		<p>Copyright &copy; 2023</p>
 	</footer>
-
-	<script type="text/javascript" src="gallery.js"></script>
 </body>
 </html>
